@@ -16,10 +16,10 @@ public class SaleComission {
         int[] counters = new int[9];
 
         // Defines the range limits: 
-        int[] rangeLimits = { 200, 300, 400, 500, 600, 700, 800, 900, 1000 };
+        int[] rangeLimits = {200, 300, 400, 500, 600, 700, 800, 900, 1000};
 
         // Defines the sales data for each salesperson: 
-        int[] salesData = { 5000, 2000, 700, 600, 1200, 3000, 800, 900, 1500, 2500, 3500 };
+        int[] salesData = {5000, 2000, 700, 600, 1200, 3000, 800, 900, 1500, 2500, 3500};
 
         // Calculates the salaries and update the counters: 
         for (int i = 0; i < salesData.length; i++) {
